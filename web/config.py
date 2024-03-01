@@ -18,8 +18,8 @@ TEST_ENV = os.getenv('TEST_ENV', '0').strip().lower() in ('1', 'true', 'yes')
 if TEST_ENV:
     print('[CONF] Running in test environment')
 
-OSM_CLIENT = os.getenv('OSM_CLIENT', None)
-OSM_SECRET = os.getenv('OSM_SECRET', None)
+OSM_CLIENT = os.getenv('OSM_CLIENT', "xR***9U")
+OSM_SECRET = os.getenv('OSM_SECRET', "zI***fE")
 OSM_SCOPES = 'read_prefs write_api'
 
 if not OSM_CLIENT or not OSM_SECRET:

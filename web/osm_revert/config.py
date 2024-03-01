@@ -15,10 +15,10 @@ USER_AGENT = f'osm-revert/{VERSION} (+https://github.com/Zaczero/osm-revert)'
 CHANGESETS_LIMIT_CONFIG = {
     '': {
         0: 0,
-        10: 3,
-        100: 5,
-        500: 10,
-        5000: 20,
+        10: 300,
+        100: 500,
+        500: 1000,
+        5000: 2000,
     },
     'moderator': {0: 50},
 }
